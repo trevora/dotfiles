@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+
+set -e
+
+CONFIG="packages.conf.yaml"
+DOTBOT_DIR="dotbot"
+APTGET_DIR="dotbot_plugin_aptget"
+
+DOTBOT_BIN="bin/dotbot"
+APTGET_PLUGIN="aptget.py"
+BASEDIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+
+cd "${BASEDIR}"
+git submodule update --init --recursive "${DOTBOT_DIR}"
+git submodule update --init --recursive "${APTGET_DIR}"
+
+"${BASEDIR}/${DOTBOT_DIR}/${DOTBOT_BIN}" -d "${BASEDIR}" -c "${BASEDIR}/${CONFIG}" -p "${BASEDIR}/${APTGET_DIR}/${APTGET_PLUGIN}" "${@}"
+
