@@ -6,4 +6,4 @@
 	url = https://github.com/dein0s/dotbot_plugin_aptget.git
 [submodule "zsh/zprezto"]
 	path = zsh/zprezto
-	url = https://github.com/sorin-ionescu/prezto.git
+	url = https://github.com/trevora/prezto.git
