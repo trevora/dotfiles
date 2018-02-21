@@ -1,3 +1,5 @@
 - aptget:
     vim:
     zsh:
+    pidgin:
+    pidgin-otr:
