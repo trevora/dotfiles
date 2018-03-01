@@ -1,1 +1,2 @@
 Bundle "scrooloose/nerdtree.git"
+Bundle "vim-syntastic/syntastic"
