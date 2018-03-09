@@ -1,9 +1,11 @@
 - clean: ['~']
 
 - link:
-    ~/.dotfiles: ''
-    ~/.inputrc:
     ~/.config/fish/config.fish: 'fish/config.fish'
+    ~/.dotfiles: ''
+    ~/.gitconfig:
+    ~/.inputrc:
+    ~/.tmux.conf:
     ~/.zprezto: 'zsh/zprezto'
     ~/.zlogin: 'zsh/zprezto/runcoms/zlogin'
     ~/.zlogout: 'zsh/zprezto/runcoms/zlogout'
@@ -13,7 +15,6 @@
     ~/.zshrc: 'zsh/zprezto/runcoms/zshrc'
     ~/.vim: 'vim'
     ~/.vimrc:
-    ~/.gitconfig:
 
 - shell:
     - ['~/.dotfiles/vundleinit.sh', Installing Vundle]
