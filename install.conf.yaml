@@ -13,6 +13,7 @@
     ~/.zshrc: 'zsh/zprezto/runcoms/zshrc'
     ~/.vim: 'vim'
     ~/.vimrc:
+    ~/.gitconfig:
 
 - shell:
     - ['~/.dotfiles/vundleinit.sh', Installing Vundle]
