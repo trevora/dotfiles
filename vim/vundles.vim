@@ -23,6 +23,7 @@ Plugin 'VundleVim/Vundle.vim'
 " ~/.vim/vundles/ to edit them:
 runtime git.vundle
 runtime project.vundle
+runtime python.vundle
 runtime search.vundle
 
 call vundle#end()

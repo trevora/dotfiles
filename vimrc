@@ -83,5 +83,10 @@ set hlsearch        " Highlight searches by default
 set ignorecase      " Ignore case when searching...
 set smartcase       " ...unless we type a capital
 
+" ================ Splits ===========================
+
+set splitbelow
+set splitright
+
 " ================ Custom Settings ========================
 source ~/.vim/settings.vim
