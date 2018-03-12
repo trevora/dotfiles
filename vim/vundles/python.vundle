@@ -1,1 +1,2 @@
 Bundle 'tmhedberg/SimpylFold'
+Bundle 'vim-scripts/indentpython.vim'
