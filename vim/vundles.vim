@@ -21,6 +21,7 @@ Plugin 'VundleVim/Vundle.vim'
 " YADR's vundles are split up by category into smaller files
 " This reduces churn and makes it easier to fork. See
 " ~/.vim/vundles/ to edit them:
+runtime appearance.vundle
 runtime git.vundle
 runtime languages.vundle
 runtime project.vundle
