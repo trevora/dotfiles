@@ -82,6 +82,12 @@ set foldmethod=indent   "fold based on indent
 set foldnestmax=3       "deepest fold is 3 levels
 set nofoldenable        "don't fold by default
 
+" ================ Srolling =========================
+
+set scrolloff=8     " Start scrolling when we're 8 lines away from margins
+set sidescrolloff=15
+set sidescroll=1
+
 " ================ Search ===========================
 
 set incsearch       " Find the next match as we type the search
