@@ -1,0 +1,2 @@
+Bundle "vim-syntastic/syntastic"
+Bundle "Valloric/YouCompleteMe"

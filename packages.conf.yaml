@@ -1,9 +1,13 @@
 - aptget:
-    vim:
-    zsh:
+    build-essential:
+    cmake:
+    exuberant-ctags:
     pidgin:
     pidgin-otr:
-    exuberant-ctags:
-    silversearcher-ag:
+    python-dev:
     python-pip:
+    python3-dev:
+    silversearcher-ag:
     tmux:
+    vim:
+    zsh:

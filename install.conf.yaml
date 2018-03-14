@@ -23,3 +23,5 @@
     - ['pip install --user --upgrade flake8', Install flake8 for Python]
     - ['pip install --user --upgrade pipenv', Install pipenv for Python]
     - ['pip install --user --upgrade virtualenv', Install virtualenv for Python]
+    - ['pip install --user --upgrade jedi', Install jedi for Python]
+    - ['cd ~/.vim/bundle/YouCompleteMe && ./install.py --clang-completer', Set up YouCompleteMe]

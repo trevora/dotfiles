@@ -22,6 +22,7 @@ Plugin 'VundleVim/Vundle.vim'
 " This reduces churn and makes it easier to fork. See
 " ~/.vim/vundles/ to edit them:
 runtime git.vundle
+runtime languages.vundle
 runtime project.vundle
 runtime python.vundle
 runtime search.vundle
