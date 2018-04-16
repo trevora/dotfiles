@@ -7,3 +7,6 @@
 [submodule "zsh/zprezto"]
 	path = zsh/zprezto
 	url = https://github.com/trevora/prezto.git
+[submodule "dircolors-solarized"]
+	path = dircolors-solarized
+	url = https://github.com/huyz/dircolors-solarized

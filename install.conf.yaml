@@ -3,6 +3,7 @@
 - link:
     ~/.config/fish/config.fish: 'fish/config.fish'
     ~/.dotfiles: ''
+    ~/.dir_colors: 'dircolors-solarized/dircolors.ansi-universal'
     ~/.gitconfig:
     ~/.inputrc:
     ~/.tmux.conf:
