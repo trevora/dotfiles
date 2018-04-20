@@ -2,6 +2,7 @@
     build-essential:
     cmake:
     exuberant-ctags:
+    fonts-inconsolata:
     pidgin:
     pidgin-otr:
     python-dev:
