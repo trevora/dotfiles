@@ -20,7 +20,6 @@
 - shell:
     - ['~/.dotfiles/vundleinit.sh', Installing Vundle]
     - ['vim +PluginInstall +qall', Install vim plugins]
-    - ['pip install --upgrade pip', Upgrade pip]
     - ['pip install --user --upgrade flake8', Install flake8 for Python]
     - ['pip install --user --upgrade pipenv', Install pipenv for Python]
     - ['pip install --user --upgrade virtualenv', Install virtualenv for Python]
