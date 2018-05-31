@@ -82,7 +82,7 @@ set foldmethod=indent   "fold based on indent
 set foldnestmax=3       "deepest fold is 3 levels
 set nofoldenable        "don't fold by default
 
-" ================ Srolling =========================
+" ================ Scrolling =========================
 
 set scrolloff=8     " Start scrolling when we're 8 lines away from margins
 set sidescrolloff=15
@@ -99,6 +99,10 @@ set smartcase       " ...unless we type a capital
 
 set splitbelow
 set splitright
+
+" ================ Ctags  ===========================
+
+set tags=tags;$HOME " Search for tags backwards stopping at home dir
 
 " ================ Custom Settings ========================
 source ~/.vim/settings.vim
