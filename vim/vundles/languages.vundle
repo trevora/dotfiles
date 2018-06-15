@@ -1,2 +1,2 @@
-Plugin "vim-syntastic/syntastic"
-Plugin "Valloric/YouCompleteMe"
+Plugin 'vim-syntastic/syntastic'
+Plugin 'Valloric/YouCompleteMe'
