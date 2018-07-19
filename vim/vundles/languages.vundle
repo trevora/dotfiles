@@ -1,2 +1,3 @@
 Plugin 'vim-syntastic/syntastic'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'pearofducks/ansible-vim'
