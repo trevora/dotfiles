@@ -24,3 +24,4 @@
     - ['pip install --user --upgrade virtualenv', Install virtualenv for Python]
     - ['pip install --user --upgrade jedi', Install jedi for Python]
     - ['cd ~/.vim/bundle/YouCompleteMe && ./install.py --clang-completer', Set up YouCompleteMe]
+    - ['~/.tmux/plugins/tpm/bin/install_plugins', Install tmux plugins]
