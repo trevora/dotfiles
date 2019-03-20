@@ -23,5 +23,6 @@
     - ['pip install --user --upgrade pipenv', Install pipenv for Python]
     - ['pip install --user --upgrade virtualenv', Install virtualenv for Python]
     - ['pip install --user --upgrade jedi', Install jedi for Python]
+    - ['pip install --user --upgrade tox tox-pipenv', Install tox support for Python]
     - ['cd ~/.vim/bundle/YouCompleteMe && ./install.py --clang-completer', Set up YouCompleteMe]
     - ['~/.tmux/plugins/tpm/bin/install_plugins', Install tmux plugins]

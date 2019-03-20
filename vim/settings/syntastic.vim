@@ -9,4 +9,4 @@ let g:syntastic_check_on_wq = 0
 
 " Temporarily ignore style messages so we don't get
 " overwhelmed
-let g:syntastic_quiet_messages = { "type": "style" }
+"let g:syntastic_quiet_messages = { "type": "style" }

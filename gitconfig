@@ -1,7 +1,11 @@
 [core]
 	editor = /usr/bin/vim
+
 [push]
 	default = simple
+
+[alias]
+    conflicted = !vim +Conflicted
 
 # Allow local customizations in the .gitconfig_local file
 [include]
