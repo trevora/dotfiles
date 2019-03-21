@@ -1,12 +1,12 @@
 - aptget:
     build-essential:
     cmake:
+    curl:
     exuberant-ctags:
     fonts-inconsolata:
     pidgin:
     pidgin-otr:
     python-dev:
-    python-pip:
     python3-dev:
     silversearcher-ag:
     tmux:
