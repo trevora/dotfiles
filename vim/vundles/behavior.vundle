@@ -1,3 +1,2 @@
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'tpope/vim-unimpaired'
-Plugin 'jiangmiao/auto-pairs'
