@@ -64,8 +64,8 @@ set tabstop=4
 set expandtab
 
 " Auto indent pasted text
-nnoremap p p=`]<C-o>
-nnoremap P P=`]<C-o>
+"nnoremap p p=`]<C-o>
+"nnoremap P P=`]<C-o>
 
 filetype plugin on
 filetype indent on
@@ -92,8 +92,8 @@ set sidescroll=1
 
 set incsearch       " Find the next match as we type the search
 set hlsearch        " Highlight searches by default
-set ignorecase      " Ignore case when searching...
-set smartcase       " ...unless we type a capital
+"set ignorecase      " Ignore case when searching...
+"set smartcase       " ...unless we type a capital
 
 " ================ Splits ===========================
 

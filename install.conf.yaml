@@ -2,27 +2,27 @@
 
 - link:
     ~/.dotfiles: ''
-    ~/.dir_colors: 'dircolors-solarized/dircolors.ansi-universal'
+    # ~/.dir_colors: 'dircolors-solarized/dircolors.ansi-universal'
     ~/.gitconfig:
-    ~/.inputrc:
-    ~/.tmux:
-    ~/.tmux.conf:
-    ~/.zprezto: 'zsh/zprezto'
-    ~/.zlogin: 'zsh/zprezto/runcoms/zlogin'
-    ~/.zlogout: 'zsh/zprezto/runcoms/zlogout'
-    ~/.zpreztorc: 'zsh/zprezto/runcoms/zpreztorc'
-    ~/.zprofile: 'zsh/zprezto/runcoms/zprofile'
-    ~/.zshenv: 'zsh/zprezto/runcoms/zshenv'
-    ~/.zshrc: 'zsh/zprezto/runcoms/zshrc'
+    # ~/.inputrc:
+    # ~/.tmux:
+    # ~/.tmux.conf:
+    # ~/.zprezto: 'zsh/zprezto'
+    # ~/.zlogin: 'zsh/zprezto/runcoms/zlogin'
+    # ~/.zlogout: 'zsh/zprezto/runcoms/zlogout'
+    # ~/.zpreztorc: 'zsh/zprezto/runcoms/zpreztorc'
+    # ~/.zprofile: 'zsh/zprezto/runcoms/zprofile'
+    # ~/.zshenv: 'zsh/zprezto/runcoms/zshenv'
+    # ~/.zshrc: 'zsh/zprezto/runcoms/zshrc'
     ~/.vim: 'vim'
     ~/.vimrc:
 
 - shell:
     - ['~/.dotfiles/vundleinit.sh', Installing Vundle]
     - ['vim +PluginInstall +qall', Install vim plugins]
-    - ['pip install --user --upgrade virtualenv', Install virtualenv for Python]
-    - ['curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python get-pip.py --user --upgrade && rm get-pip.py', Install pip]
-    - ['pip install --user --upgrade tox tox-pipenv', Install tox support for Python]
-    - ['curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python', Install poetry]
+    # - ['pip install --user --upgrade virtualenv', Install virtualenv for Python]
+    # - ['curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py && python get-pip.py --user --upgrade && rm get-pip.py', Install pip]
+    # - ['pip install --user --upgrade tox tox-pipenv', Install tox support for Python]
+    # - ['curl -sSL https://raw.githubusercontent.com/sdispater/poetry/master/get-poetry.py | python', Install poetry]
       # - ['cd ~/.vim/bundle/YouCompleteMe && ./install.py --clang-completer', Set up YouCompleteMe]
-    - ['~/.tmux/plugins/tpm/bin/install_plugins', Install tmux plugins]
+      # - ['~/.tmux/plugins/tpm/bin/install_plugins', Install tmux plugins]

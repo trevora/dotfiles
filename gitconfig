@@ -7,6 +7,9 @@
 [alias]
     conflicted = !vim +Conflicted
 
+[init]
+    defaultBranch = main
+
 # Allow local customizations in the .gitconfig_local file
 [include]
     path = ~/.gitconfig_local

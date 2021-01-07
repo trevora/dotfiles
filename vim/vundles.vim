@@ -24,6 +24,7 @@ Plugin 'VundleVim/Vundle.vim'
 runtime appearance.vundle
 runtime behavior.vundle
 runtime git.vundle
+runtime graphql.vundle
 runtime languages.vundle
 runtime project.vundle
 runtime python.vundle
