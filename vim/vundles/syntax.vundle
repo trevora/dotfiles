@@ -1,0 +1,3 @@
+Plugin 'pearofducks/ansible-vim'
+Plugin 'cespare/vim-toml'
+Plugin 'wgwoods/vim-systemd-syntax'

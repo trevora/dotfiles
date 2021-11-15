@@ -1,4 +1,8 @@
+Plugin 'davidhalter/jedi-vim'
 Plugin 'tmhedberg/SimpylFold'
 Plugin 'vim-scripts/indentpython.vim'
 Plugin 'psf/black'
 Plugin 'fisadev/vim-isort'
+Plugin 'alfredodeza/pytest.vim'
+Plugin 'vim-scripts/django.vim'
+Plugin 'raimon49/requirements.txt.vim'

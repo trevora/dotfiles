@@ -28,7 +28,10 @@ runtime graphql.vundle
 runtime languages.vundle
 runtime project.vundle
 runtime python.vundle
+runtime robot.vundle
 runtime search.vundle
+runtime syntax.vundle
+runtime terraform.vundle
 
 call vundle#end()
 filetype plugin indent on

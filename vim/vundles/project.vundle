@@ -1,2 +1,3 @@
 Plugin 'scrooloose/nerdtree.git'
 Plugin 'RRethy/vim-illuminate.git'
+Plugin 'preservim/tagbar'
